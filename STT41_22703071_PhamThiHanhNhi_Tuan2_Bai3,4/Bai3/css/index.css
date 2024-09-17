@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    background-image: url(../img/background.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15%;
+  }
+  
+  .container > img {
+    height: auto;
+    width: 60%;
+  }
+  
+  .container > a > img {
+    height: auto;
+    width: 100%;
+  }
