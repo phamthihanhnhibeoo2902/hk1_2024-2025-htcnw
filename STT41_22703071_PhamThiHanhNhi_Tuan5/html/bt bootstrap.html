@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        .img1 {
+            width: 80px;
+            height: 100px;
+        }
+        
+        .h3 {
+            color: rgb(80, 80, 80);
+        }
+        
+        .bg-color {
+            background-color: #294d79;
+        }
+        
+        .bg-search {
+            background-color: #1d3252;
+        }
+        
+        #sea::-webkit-input-placeholder,
+        #go {
+            color: white;
+        }
+        
+        .nav-item {
+            background-color: #3e72b2;
+            margin-right: 10px;
+            margin-bottom: 0;
+        }
+        
+        .nav-link {
+            color: white;
+        }
+        
+        .text-shadow {
+            text-shadow: 6px 6px 4px rgb(91, 176, 91);
+        }
+        
+        .border-dashed {
+            border: 1px dashed black;
+        }
+        
+        .bg-aside {
+            background-color: rgb(232, 246, 250);
+        }
+        
+        .p-aside {
+            color: #3e72b2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-5 border">
+        <div class="row">
+            <div class="col-12 bg-color position-relative">
+                <img src="../img/z5880015723125_29a478cdbb49d5c04f49c2df0b2d6b69.jpg" class="img1 mt-3 ms-2 mb-3 float-start" alt="">
+                <h1 class="h1 text-light ms-5 mt-4">FlowerBox 360</h1>
+                <p class="text-light ms-5">...to get your daily close of luxury roses!</p>
+                <form class="position-absolute top-0 end-0">
+                    <input class="bg-search mt-3 me-2" type="search" name="sea" placeholder="search the site">
+                    <button class="bg-search me-5" type="submit" id="'go">GO</button>
+                </form>
+                <ul class="nav position-absolute end-0 bottom-0 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Promotion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gift Baskets</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Flowers Services </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link 1</a></li>
+                            <li><a class="dropdown-item" href="#">Link 2</a></li>
+                            <li><a class="dropdown-item" href="#">Link 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <h3 class="h3 mt-5">Why Not Contact Us Today!</h3>
+                <hr class="border-dashed">
+                <div class="col-md-7 float-start pe-4">
+                    <p class="text-danger fst-italic text-justify text-shadow">For FlowerBox 360 shopers, that means not only can you send your friends and loves ones the highest quality flowers found on online, but thatt you can do so at a great value.</p>
+                    <table class="ms-2 pe-4">
+                        <tr>
+                            <td>
+                                <div class="mb-1 mt-1 me-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" name="name">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="mb-1 mt-1 me-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="mb-1 mt-1 me-3">
+                                    <label for="tel" class="form-label">Telephone</label>
+                                    <input type="tel" class="form-control" id="tel" name="tel">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="mb-1 mt-1 me-3">
+                                    <label for="sub" class="form-label">Subject</label>
+                                    <input type="sub" class="form-control" id="sub" name="sub">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="mb-1 mt-1">
+                                    <label for="comment">Comments:</label>
+                                    <textarea class="form-control" rows="3" id="comment" name="text"></textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="mt-1 mb-1">
+                                    <button type="submit" class="btn btn-light border me-3">Submit</button>
+                                    <button type="reset" class="btn btn-light border me-3">Reset</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-5 float-start">
+                    <h3 class="h3 ms-3">FlowerBox 360 Info!</h3>
+                    <hr class="border-dashed ms-3">
+                    <p class="ms-3">Openationg Hours:
+                        <br>Monday-Friday:9:000am-5:00pm
+                        <br> Saturday:9:00am-1.00pm.
+                        <br> Sunday:CLosed (No Deliveries)
+                        <br>ORDER ONLINE 24/7 </p>
+                    <p class="ms-3">Software Engineering Dept.
+                        <br>Information Technology Faculty
+                        <br>First Floor, H Building
+                    </p>
+                    <p class="ms-3">12 Nguyen Van Bao, Ward 4,
+                        <br>Go Vap District, Ho Chi Minh City
+                        <br>Tel: 0283.8940 390
+                        <br>Fax: 0283.9940 954
+                    </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="col-11 bg-aside ms-3 mt-5 ps-3 pe-3">
+                    <h3 class="h3 pt-4">Discounts & Specials</h3>
+                    <hr class="border-dashed">
+                    <img src="../img/z5880015723105_73e82b2d04c283128ad81235917b722f.jpg" alt="" class="img-thumbnail">
+                    <p class="py-4 text-justify">FlowerBox 360 offers many great discounts throught the year, from coupons and coupon codes, to promo codes and other savings. We also offer military flower discounts to our wonderfull troppps! </p>
+                    <p class="p-aside text-end fw-bold pb-3">Read more </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 bg-color text-white text-start">
+                <p>&copy;2017 - All Rights Reserved - Software Engineering Department - Industrial University of Ho Chi Minh City </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
